@@ -21,7 +21,6 @@ $arr = [99, 3, 12, 45, 60, 100, 31, 7, 28];
 $arr = [99, 3, 12, 45, 60, 100, 31, 7, 28];
 
 // ここで並び替え処理
-sort($arr);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -31,10 +30,5 @@ sort($arr);
 </head>
 <body>
     <!-- ここに並び替え後を表示 -->
-    <?php
-    for ($i = 0; $i < count($arr); $i++) {
-        echo $arr[$i].",";
-    }
-    ?>
 </body>
 </html>
