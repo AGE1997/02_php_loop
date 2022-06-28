@@ -22,6 +22,7 @@ $arr = [99, 3, 12, 45, 60, 100, 31, 7, 28];
 
 // ここで並び替え処理
 sort($arr);
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
